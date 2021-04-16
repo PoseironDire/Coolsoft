@@ -65,9 +65,6 @@ main {
   background-color: rgb(141, 141, 141);
   margin: 2%;
 }
-.tableon {
-  display: table;
-}
 
 #main1 table tr {
   display: flex;
@@ -170,6 +167,11 @@ footer {
   width: 400px;
   height: 80px;
 }
+
+.tableon {
+  display: table;
+}
+
 .hidden {
   display: none;
 }
