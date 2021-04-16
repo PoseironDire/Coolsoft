@@ -177,7 +177,31 @@ footer {
   height: 80px;
 }
 
-.tableon {
+.quickOn {
+  display: table;
+}
+
+.scheduleOn {
+  display: table;
+}
+
+.coursesOn {
+  display: table;
+}
+
+.teachingOn {
+  display: table;
+}
+
+.documentOn {
+  display: table;
+}
+
+.presenseOn {
+  display: table;
+}
+
+.linksOn {
   display: table;
 }
 
