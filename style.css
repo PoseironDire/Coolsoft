@@ -65,11 +65,8 @@ main {
   background-color: rgb(141, 141, 141);
   margin: 2%;
 }
-.tableon {
-  display: table;
-}
 
-#main1 table tr {
+#main1 tr {
   display: flex;
   justify-content: space-between;
 }
@@ -78,6 +75,15 @@ main {
   background-color: rgb(91, 92, 79);
   width: 33%;
   font-size: larger;
+  color: rgb(255, 255, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+label button {
+  background-color: rgb(91, 92, 79);
+  font-size: larger;
+  outline-width: 0;
+  width: 100%;
   color: rgb(255, 255, 0);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -170,6 +176,11 @@ footer {
   width: 400px;
   height: 80px;
 }
+
+.tableon {
+  display: table;
+}
+
 .hidden {
   display: none;
 }
