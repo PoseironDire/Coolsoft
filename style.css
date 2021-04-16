@@ -69,10 +69,6 @@ main {
   display: table;
 }
 
-.tableoff {
-  display: none;
-}
-
 #main1 table tr {
   display: flex;
   justify-content: space-between;
@@ -173,4 +169,7 @@ footer {
 #Coolsoft {
   width: 400px;
   height: 80px;
+}
+.hidden {
+  display: none;
 }
